@@ -1,6 +1,6 @@
-module github.com/MisterY/ledger-server-go/v2
+module github.com/MisterY/ledger-server-go
 
-go 1.19
+go 1.18
 
 require (
 	github.com/gin-contrib/cors v1.4.0
