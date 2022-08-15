@@ -14,7 +14,6 @@ import (
 
 func ledger(c *gin.Context) {
 	command := c.Query("command")
-	log.Println(command)
 
 	parameters := strings.Fields(command)
 
