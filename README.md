@@ -13,13 +13,13 @@ componenent, all the logic is able to reside in [Cashier](https://github.com/Mis
 Any future feature additions will not require changes in the server-side component.
 
 Ledger-cli must be in the path, executable from the current location.
-It is advised to have a `.ledgerrc` file in the current directory, to set up Ledger data sources.
+It is advised to have a `.ledgerrc` file in the current directory, to set up the Ledger data sources.
 
 For additional information, see related projects.
 
 # Development
 
-The app is developed in Go(lang) v1.19.
+The app is developed in Go(lang).
 
 To debug, simply Run & Debug from vscode. 
 Or create a new configuration to attach to process "fresh".
