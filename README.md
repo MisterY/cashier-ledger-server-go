@@ -46,7 +46,7 @@ The API endpoints are listed in the ledger-server.rest file.
 
 # Installation
 
-`go install github.com/MisterY/ledger-server-go/v2`
+`go install github.com/MisterY/ledger-server-go`
 
 ## Remove
 
