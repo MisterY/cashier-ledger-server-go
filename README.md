@@ -64,9 +64,11 @@ The port parameter is optional. By default, the API will serve at port 8080.
 The server supports CORS and can be queried from a PWA JavaScript application.
 
 Simply issue a GET request to the //server?command=...
+For example, when running on localhost, the URL would be `http://localhost:8080?command=bal assets and cash`.
 
 where command is the ledger-cli command, just the parameters. 
 i.e. `balance assets`
+Parameters are also supported, so something like `bal -b 2022-08-10` is possible.
 
 The result, ledger-cli output, is split into lines and return as a JSON array, which can be previewed in a browser or parsed by client apps/tools.
 
