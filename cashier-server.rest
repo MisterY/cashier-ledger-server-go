@@ -1,7 +1,8 @@
 # Requests to test ledger server API.
 # Separate requests with ###
 ###
-@server = http://127.0.0.1:8080
+#@server = http://127.0.0.1:8080
+@server = http://localhost:8080
 
 ###
 GET {{server}}/

@@ -12,6 +12,9 @@ It effectively replaces [CashierSync](https://gitlab.com/alensiljak/cashiersync)
 componenent, all the logic is able to reside in [Cashier](https://github.com/MisterY/cashier).
 Any future feature additions will not require changes in the server-side component.
 
+Ledger-cli must be in the path, executable from the current location.
+It is advised to have a `.ledgerrc` file in the current directory, to set up Ledger data sources.
+
 For additional information, see related projects.
 
 # Development
@@ -36,11 +39,16 @@ gin
 
 ## Manual Tests
 
-todo: .rest file
+The API endpoints are listed in the ledger-server.rest file.
 
 # Installation
 
-todo: go install
+`go install github.com/MisterY/ledger-server-go/v2`
+
+## Remove
+
+The app gets installed into $GOPATH/bin.
+To remove, simple delete the executable file.
 
 # Run
 
