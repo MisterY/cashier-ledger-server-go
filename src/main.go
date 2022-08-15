@@ -2,6 +2,8 @@ package main
 
 import (
 	"bufio"
+	"flag"
+	"strconv"
 	"strings"
 
 	"github.com/gin-contrib/cors"
@@ -24,11 +26,18 @@ func setupRouter() *gin.Engine {
 }
 
 func main() {
+	// parse parameters
+	var portParam = flag.Int("p", 8080, "Specify port. The default is 8080.")
+	flag.Parse()
+	var port = strconv.Itoa(*portParam)
+
 	// define routes
 	r := setupRouter()
 
 	// todo: make the port configurable
-	r.Run("localhost:8080") // listen and serve on 0.0.0.0:8080 (for windows "localhost:8080")
+	//r.Run("localhost:8080") // listen and serve on 0.0.0.0:8080 (for windows "localhost:8080")
+	var url = "localhost:" + port
+	r.Run(url)
 }
 
 // The Go way to split the string at newline characters.
