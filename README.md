@@ -66,6 +66,8 @@ Simply issue a GET request to the //server?command=...
 where command is the ledger-cli command, just the parameters. 
 i.e. `balance assets`
 
+The result, ledger-cli output, is split into lines and return as a JSON array, which can be previewed in a browser or parsed by client apps/tools.
+
 # License
 
 GNU General Public License v3.0

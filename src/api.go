@@ -25,7 +25,9 @@ func ledger(c *gin.Context) {
 		log.Fatal(err)
 	}
 
-	c.JSON(http.StatusOK, result)
+	var output = SplitLines(result)
+
+	c.JSON(http.StatusOK, output)
 }
 
 // Returns an image.
