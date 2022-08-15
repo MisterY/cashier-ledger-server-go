@@ -55,7 +55,9 @@ To remove, simple delete the executable file.
 
 # Run
 
-`ledger-server-go`
+`ledger-server-go [-p <port>]`
+
+The port parameter is optional. By default, the API will serve at port 8080.
 
 # Query
 
