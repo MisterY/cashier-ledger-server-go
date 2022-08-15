@@ -1,0 +1,13 @@
+# Requests to test ledger server API.
+# Separate requests with ###
+###
+@server = http://127.0.0.1:8080
+
+###
+GET {{server}}/
+###
+GET {{server}}/hello
+###
+{{server}}/ping
+###
+{{server}}/shutdown
