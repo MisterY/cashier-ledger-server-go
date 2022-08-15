@@ -21,6 +21,9 @@ For additional information, see related projects.
 
 The app is developed in Go(lang) v1.19.
 
+To debug, simply Run & Debug from vscode. 
+Or create a new configuration to attach to process "fresh".
+
 ## Hot Reload
 
 To use hot reload during development, simply install Fresh package
@@ -60,7 +63,8 @@ The server supports CORS and can be queried from a PWA JavaScript application.
 
 Simply issue a GET request to the //server?command=...
 
-where command is the ledger-cli command
+where command is the ledger-cli command, just the parameters. 
+i.e. `balance assets`
 
 # License
 
