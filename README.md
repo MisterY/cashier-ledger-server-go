@@ -4,8 +4,8 @@ A simple Rest API server for ledger-cli. Used by Cashier PWA.
 # Purpose
 
 This is an server application that provides a Rest API endpoint. All it does is forward the
-received [ledger-cli](https://ledger-cli.org/) command to the ledger executable and send back the result. It is a simple
-proxy for HTTP(S) requests and an instance of ledger-cli.
+received [ledger-cli](https://ledger-cli.org/) command to the ledger executable and sends back the result. 
+It is a simple proxy for HTTP(S) requests and an instance of ledger-cli.
 
 It effectively replaces [CashierSync](https://gitlab.com/alensiljak/cashiersync) and
 [CashierSync Go](https://gitlab.com/alensiljak/cashiersync-go). By simplifying the server-side
