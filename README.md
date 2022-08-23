@@ -1,4 +1,4 @@
-# ledger-server-go
+# cashier-ledger-server-go
 A simple Rest API server for ledger-cli. Used by [Cashier](https://github.com/MisterY/cashier) PWA.
 
 # Purpose
@@ -46,7 +46,7 @@ The API endpoints are listed in the ledger-server.rest file.
 
 # Installation
 
-`go install github.com/MisterY/ledger-server-go@latest`
+`go install github.com/MisterY/cashier-ledger-server-go@latest`
 
 ## Remove
 
@@ -55,7 +55,7 @@ To remove, simple delete the executable file.
 
 # Run
 
-`ledger-server-go [-p <port>]`
+`cashier-ledger-server-go [-p <port>]`
 
 The port parameter is optional. By default, the API will serve at port 8080.
 

@@ -1,4 +1,4 @@
-module github.com/MisterY/ledger-server-go
+module github.com/MisterY/cashier-ledger-server-go
 
 go 1.18
 
